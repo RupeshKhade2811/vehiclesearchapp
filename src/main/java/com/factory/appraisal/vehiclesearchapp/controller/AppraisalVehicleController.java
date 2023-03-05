@@ -31,7 +31,7 @@ public class AppraisalVehicleController {
     private AppraiseVehicleServiceImpl service;
 
 
-    Logger log = LoggerFactory.getLogger(AppraisalVehicleController.class);
+
 
     @ApiOperation(value = "get Appraisals cards by user id ", response = AppraisalVehicleCard.class)
     @PostMapping("/getAppraisalsCards")
