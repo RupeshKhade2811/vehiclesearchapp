@@ -30,9 +30,6 @@ public class AppraisalVehicleController {
     @Autowired
     private AppraiseVehicleServiceImpl service;
 
-
-
-
     @ApiOperation(value = "get Appraisals cards by user id ", response = AppraisalVehicleCard.class)
     @PostMapping("/getAppraisalsCards")
     public ResponseEntity<Object []> getAppraisalsCards(@RequestHeader("userId") Long userId,@RequestParam @Min(1) Integer pageNo,@RequestParam @Min(1) Integer pageSize) {
