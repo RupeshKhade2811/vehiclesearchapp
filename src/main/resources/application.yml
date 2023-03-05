@@ -1,0 +1,52 @@
+server:
+  port: '6082'
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      org:
+        hibernate:
+          envers:
+            revision_field_name: REV
+            revision_type_field_name: REV_TYPE
+            default_schema: factory_aud
+      hibernate:
+        default_schema: factory_db
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/postgres'
+    username: postgres
+    password: Rupesh123
+    driver-class-name: org.postgresql.Driver
+  servlet:
+    multipart:
+      max-file-size: 10MB
+
+
+# Logging details
+logs:
+  path: /app/factory/logs/
+logging:
+  level:
+    root: INFO
+    web: DEBUG
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+    org.springframework.web: ERROR
+    com.factory.appraisal.vehiclesearchapp: DEBUG
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  file: C:/Users/Lnovo/OneDrive/Documents/api.log
+
+# Swagger Config
+swagger:
+  enable: true
+
