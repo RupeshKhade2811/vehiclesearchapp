@@ -1,4 +1,7 @@
 package com.factory.appraisal.vehiclesearchapp.services;
+
+import org.springframework.web.multipart.MultipartFile;
+
 /**
  * This is the AppraiseVehicleService class having abstract methods
  * @author Rupesh Khade
@@ -26,6 +29,8 @@ public interface AppraiseVehicleService {
      *
      */
     byte[]  downloadImageFromFileSystem(String imageName);
+
+    String imageUpload(MultipartFile file);
 
 
   //  Map<Integer,String> imageUpload(MultipartFile file1, MultipartFile file2, MultipartFile file3, MultipartFile file4);

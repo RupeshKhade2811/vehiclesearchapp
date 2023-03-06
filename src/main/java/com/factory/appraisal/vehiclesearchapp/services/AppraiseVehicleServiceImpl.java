@@ -97,6 +97,20 @@ public class AppraiseVehicleServiceImpl implements AppraiseVehicleService {
         return images;
     }
 
+    @Override
+    public String imageUpload(MultipartFile file) {
+
+        String extension = FilenameUtils.getExtension(file.getOriginalFilename());
+        String filename = UUID.randomUUID().toString() + "." + extension;
+        Path filePath = Paths.get(AppraisalConstants.FOLDER_PATH + filename);
+        try{ Files.write(filePath, file.getBytes());
+        }
+        catch (IOException exception){
+            log.error(exception.getMessage());
+        }
+        return filename;
+    }
+
 
 
   /*  @Override

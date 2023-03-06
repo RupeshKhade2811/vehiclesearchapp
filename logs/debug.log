@@ -1,76 +1,22 @@
-2023-03-04 16:46:30 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
-                Starting VehiclesearchappApplicationTests on DESKTOP-TQ16HH1 with PID 11512 (started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 16:46:30 [main] DEBUG c.f.a.v.VehiclesearchappApplicationTests -
+2023-03-06 14:32:13 [main] INFO  c.f.a.v.VehiclesearchappApplication -
+                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 13432 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
+2023-03-06 14:32:13 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
                 Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 16:46:30 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
+2023-03-06 14:32:13 [main] INFO  c.f.a.v.VehiclesearchappApplication -
                 No active profile set, falling back to default profiles: default
-2023-03-04 16:46:50 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
-                Started VehiclesearchappApplicationTests in 20.706 seconds (JVM running for 23.662)
-2023-03-04 16:52:20 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
-                Starting VehiclesearchappApplicationTests on DESKTOP-TQ16HH1 with PID 10944 (started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 16:52:20 [main] DEBUG c.f.a.v.VehiclesearchappApplicationTests -
+2023-03-06 14:32:58 [main] INFO  c.f.a.v.VehiclesearchappApplication -
+                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 12136 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
+2023-03-06 14:32:58 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
                 Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 16:52:20 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
+2023-03-06 14:32:58 [main] INFO  c.f.a.v.VehiclesearchappApplication -
                 No active profile set, falling back to default profiles: default
-2023-03-04 16:52:40 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
-                Started VehiclesearchappApplicationTests in 20.925 seconds (JVM running for 24.006)
-2023-03-04 16:53:20 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 6344 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 16:53:20 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
+2023-03-06 14:33:19 [main] INFO  c.f.a.v.VehiclesearchappApplication -
+                Started VehiclesearchappApplication in 21.84 seconds (JVM running for 24.033)
+2023-03-06 14:44:38 [main] INFO  c.f.a.v.VehiclesearchappApplication -
+                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 7796 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
+2023-03-06 14:44:38 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
                 Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 16:53:20 [main] INFO  c.f.a.v.VehiclesearchappApplication -
+2023-03-06 14:44:38 [main] INFO  c.f.a.v.VehiclesearchappApplication -
                 No active profile set, falling back to default profiles: default
-2023-03-04 16:56:27 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 2244 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 16:56:27 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
-                Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 16:56:28 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                No active profile set, falling back to default profiles: default
-2023-03-04 17:47:17 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 13084 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 17:47:17 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
-                Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 17:47:17 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                No active profile set, falling back to default profiles: default
-2023-03-04 17:47:32 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Started VehiclesearchappApplication in 16.442 seconds (JVM running for 18.057)
-2023-03-04 17:48:22 [http-nio-6082-exec-2] ERROR c.f.a.v.c.AppraisalVehicleController -
-                Invalid userId OR Invalid page size
-2023-03-04 17:50:11 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 2796 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 17:50:11 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
-                Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 17:50:11 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                No active profile set, falling back to default profiles: default
-2023-03-04 17:50:26 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Started VehiclesearchappApplication in 16.055 seconds (JVM running for 17.613)
-2023-03-04 17:50:43 [http-nio-6082-exec-1] ERROR c.f.a.v.c.AppraisalVehicleController -
-                Invalid userId OR Invalid page size
-2023-03-04 17:52:09 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
-                Starting VehiclesearchappApplicationTests on DESKTOP-TQ16HH1 with PID 15336 (started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 17:52:09 [main] DEBUG c.f.a.v.VehiclesearchappApplicationTests -
-                Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 17:52:09 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
-                No active profile set, falling back to default profiles: default
-2023-03-04 17:52:26 [main] INFO  c.f.a.v.VehiclesearchappApplicationTests -
-                Started VehiclesearchappApplicationTests in 17.788 seconds (JVM running for 20.361)
-2023-03-04 22:43:52 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 14656 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 22:43:52 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
-                Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 22:43:52 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                No active profile set, falling back to default profiles: default
-2023-03-04 22:44:16 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Started VehiclesearchappApplication in 25.692 seconds (JVM running for 27.844)
-2023-03-04 22:50:38 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Starting VehiclesearchappApplication on DESKTOP-TQ16HH1 with PID 1136 (C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp\target\classes started by Lnovo in C:\Users\Lnovo\OneDrive\Documents\massil tasks\springboot\vehiclesearchapp)
-2023-03-04 22:50:38 [main] DEBUG c.f.a.v.VehiclesearchappApplication -
-                Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
-2023-03-04 22:50:38 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                No active profile set, falling back to default profiles: default
-2023-03-04 22:50:55 [main] INFO  c.f.a.v.VehiclesearchappApplication -
-                Started VehiclesearchappApplication in 18.37 seconds (JVM running for 20.086)
-2023-03-04 22:51:37 [http-nio-6082-exec-6] ERROR c.f.a.v.s.AppraiseVehicleServiceImpl -
-                Page size must not be less than one!
-2023-03-04 22:51:51 [http-nio-6082-exec-8] ERROR c.f.a.v.s.AppraiseVehicleServiceImpl -
-                AppraisalCards not available
+2023-03-06 14:45:10 [main] INFO  c.f.a.v.VehiclesearchappApplication -
+                Started VehiclesearchappApplication in 33.473 seconds (JVM running for 35.533)
