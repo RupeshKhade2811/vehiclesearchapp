@@ -28,6 +28,7 @@ public interface AppraiseVehicleService {
     byte[]  downloadImageFromFileSystem(String imageName);
 
 
+
   //  Map<Integer,String> imageUpload(MultipartFile file1, MultipartFile file2, MultipartFile file3, MultipartFile file4);
 
 

@@ -124,7 +124,7 @@ public class AppraisalCreationPage {
     private List<String> transmissionStatus;
 
     //AppraisalTest Drive Status
-    private List<String> steeringFeelStatus;
+    private String steeringFeelStatus;
 
 
     private String booksAndKeys;
