@@ -90,7 +90,7 @@ public class EAppraisalTestDriveStatus extends TransactionEntity {
     private String frontRightImage;
     @Column(name = "R_L_IMAGE")
     private String rearLeftImage;
-    @Column(name = "R_R_IMAGE", nullable = false)
+    @Column(name = "R_R_IMAGE", nullable=true)
     private String rearRightImage;
     @Column(name = "INTR_TYPE")
     private String interiorType;

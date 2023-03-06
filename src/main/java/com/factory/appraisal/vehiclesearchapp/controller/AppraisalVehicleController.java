@@ -5,19 +5,19 @@ package com.factory.appraisal.vehiclesearchapp.controller;
  * @author Rupesh khade
  */
 
-import com.factory.appraisal.vehiclesearchapp.ExceptionHandle.ErrorResponse;
-import com.factory.appraisal.vehiclesearchapp.VehiclesearchappApplication;
 import com.factory.appraisal.vehiclesearchapp.dto.AppraisalVehicleCard;
+import com.factory.appraisal.vehiclesearchapp.responseHandler.ApiResponseHandler;
 import com.factory.appraisal.vehiclesearchapp.services.AppraiseVehicleServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
 import javax.validation.constraints.Min;
 
 
@@ -44,13 +44,25 @@ public class AppraisalVehicleController {
 
 
     @ApiOperation(value = "get Image by image name ", response = byte[].class)
-    @PostMapping("/getpic1")
+   // @PostMapping("/getpic1")
+    @GetMapping("/getpic1")
     public ResponseEntity<byte[]> downloadImageFromFileSystem(@RequestParam String pic1)  {
         byte[] bytes = service.downloadImageFromFileSystem(pic1);
         return ResponseEntity.status(HttpStatus.OK)
                 .contentType(MediaType.valueOf("image/jpeg"))
                 .body(bytes);
     }
+
+    @ApiOperation(value = "Upload Image and Returns image name", response = ApiResponseHandler.class)
+    @PostMapping("/uploadImage")
+    public ResponseEntity<String> uploadImage(@RequestBody MultipartFile file) {
+
+        String map=service.imageUpload(file);
+
+        return new ResponseEntity<>(map,HttpStatus.OK);
+    }
+
+
  /*   @ApiIgnore
     @ApiOperation(value = "Upload Image and Returns image name", response = ApiResponseHandler.class)
     @PostMapping("/uploadImage")
